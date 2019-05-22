@@ -1,0 +1,14 @@
+"0","#這是R Code Chunk"
+"0","job<-strsplit(joban$大職業別,""[-]"")"
+"2","Error: unexpected symbol in:
+""#這是R Code Chunk
+job""
+"
+"2","In addition: "
+"2","Warning message:
+"
+"2","In strsplit(code, ""\n"", fixed = TRUE) :"
+"2","
+ "
+"2"," input string 1 is invalid in this locale
+"

@@ -1,0 +1,10 @@
+"0","#這是R Code Chunk"
+"0","X106eduatta_salary$yearincreaserate<-(a1-b1)/b1"
+"2","Warning message:
+"
+"2","In strsplit(code, ""\n"", fixed = TRUE) :"
+"2","
+ "
+"2"," input string 1 is invalid in this locale
+"
+"0","head(arrange(X106eduatta_salary,desc(yearincreaserate)),10)"

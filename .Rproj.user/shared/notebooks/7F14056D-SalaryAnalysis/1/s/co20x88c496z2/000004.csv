@@ -1,0 +1,15 @@
+"0","library(jsonlite)"
+"2","Warning message:
+"
+"2","In strsplit(code, ""\n"", fixed = TRUE) :"
+"2","
+ "
+"2"," input string 1 is invalid in this locale
+"
+"0","library(dplyr)"
+"0","library(readr)"
+"0","#fromjson()"
+"0","#inner_join()"
+"0","  X103eduatta_salary<-read_csv(""*C:\Users\kazusa\Desktop\work\103eduatta_salary.csv"")"
+"2","Error: '\U' used without hex digits in character string starting """"*C:\U""
+"

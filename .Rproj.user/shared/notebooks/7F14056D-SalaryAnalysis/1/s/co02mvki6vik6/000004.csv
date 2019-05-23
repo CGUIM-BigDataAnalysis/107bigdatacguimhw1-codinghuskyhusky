@@ -5,3 +5,5 @@
  "
 "2"," input string 1 is invalid in this locale
 "
+"0","joban<-filter(X106eduatta_salary,"
+"0","              yearincreaserate>0.05)"

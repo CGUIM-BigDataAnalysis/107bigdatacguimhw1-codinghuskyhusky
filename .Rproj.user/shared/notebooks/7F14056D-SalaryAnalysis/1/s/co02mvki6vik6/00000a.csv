@@ -1,7 +1,0 @@
-"0","#這是R Code Chunk"
-"0","#X106eduatta_salary$大職業別[X106eduatta_salary$yearincreaserate>0.05]"
-"0","head(filter(X106eduatta_salary,"
-"0","            yearincreaserate>0.05)%>%"
-"0","            arrange(desc(yearincreaserate)"
-"0","                    )"
-"0","     ,10)"

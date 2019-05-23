@@ -1,5 +1,5 @@
 "0","#這是R Code Chunk"
-"0","X106eduatta_salary$yearincreaserate<-(a1-b1)/b1"
+"0","        a1<-X106eduatta_salary$`大學-薪資`"
 "2","Warning message:
 "
 "2","In strsplit(code, ""\n"", fixed = TRUE) :"
@@ -7,4 +7,8 @@
  "
 "2"," input string 1 is invalid in this locale
 "
-"0","head(arrange(X106eduatta_salary,desc(yearincreaserate)),10)"
+"0","        b1<-X103eduatta_salary$`大學-薪資`"
+"0","        X106eduatta_salary$Yearincreaserate<-(a1-b1)/b1"
+"0","knitr::kable("
+"0","        head(arrange(X106eduatta_salary,desc(Yearincreaserate)),10)"
+"0","            )"

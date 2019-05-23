@@ -1,0 +1,14 @@
+"0","#這是R Code Chunk"
+"0","favwork$defferent=(favwork$`研究所及以上-薪資`-favwork$`大學-薪資`)"
+"2","Warning message:
+"
+"2","In strsplit(code, ""\n"", fixed = TRUE) :"
+"2","
+ "
+"2"," input string 1 is invalid in this locale
+"
+"0","favwork$GUobUN=(favwork$`研究所及以上-薪資`/favwork$`大學-薪資`)"
+"0","knitr::kable("
+"0","  select(favwork,大職業別,`研究所及以上-薪資`,`大學-薪資`,GUobUN,defferent)%>%"
+"0","  arrange(by=desc(GUobUN))"
+"0","            )"

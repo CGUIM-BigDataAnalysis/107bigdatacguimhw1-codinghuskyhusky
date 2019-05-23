@@ -1,0 +1,196 @@
+"0","library(jsonlite)"
+"2","package ��jsonlite�� was built under R version 3.5.3"
+"2","Warning message:
+"
+"2","In strsplit(code, ""\n"", fixed = TRUE) :"
+"2","
+ "
+"2"," input string 1 is invalid in this locale
+"
+"0","library(dplyr)"
+"2","package ��dplyr�� was built under R version 3.5.3"
+"2","
+Attaching package: ��dplyr��
+
+"
+"2","The following objects are masked from ��package:stats��:
+
+    filter, lag
+
+"
+"2","The following objects are masked from ��package:base��:
+
+    intersect, setdiff, setequal, union
+
+"
+"0","library(readr)"
+"2","package ��readr�� was built under R version 3.5.3"
+"0","#fromjson()"
+"0","#inner_join()"
+"0","  X103eduatta_salary <- read_csv(""C:/Users/kazusa/Desktop/work/103eduatta_salary.csv"")"
+"2","Parsed with column specification:
+cols(
+  �~�� = [32mcol_double()[39m,
+  �j¾�~�O = [31mcol_character()[39m,
+  `�g�`���~��-�~��` = [32mcol_double()[39m,
+  `�g�`���~��-�k/�k` = [32mcol_double()[39m,
+  `�ꤤ�ΥH�U-�~��` = [31mcol_character()[39m,
+  `�ꤤ�ΥH�U-�k/�k` = [31mcol_character()[39m,
+  `�����ΰ�¾-�~��` = [31mcol_character()[39m,
+  `�����ΰ�¾-�k/�k` = [31mcol_character()[39m,
+  `�M��-�~��` = [31mcol_character()[39m,
+  `�M��-�k/�k` = [31mcol_character()[39m,
+  `�j��-�~��` = [31mcol_character()[39m,
+  `�j��-�k/�k` = [31mcol_character()[39m,
+  `��s�ҤΥH�W-�~��` = [31mcol_character()[39m,
+  `��s�ҤΥH�W-�k/�k` = [31mcol_character()[39m
+)
+"
+"0","  X104eduatta_salary <- read_csv(""C:/Users/kazusa/Desktop/work/104eduatta_salary.csv"")"
+"2","Parsed with column specification:
+cols(
+  �~�� = [32mcol_double()[39m,
+  �j¾�~�O = [31mcol_character()[39m,
+  `�g�`���~��-�~��` = [32mcol_double()[39m,
+  `�g�`���~��-�k/�k` = [31mcol_character()[39m,
+  `�ꤤ�ΥH�U-�~��` = [31mcol_character()[39m,
+  `�ꤤ�ΥH�U-�k/�k` = [31mcol_character()[39m,
+  `�����ΰ�¾-�~��` = [31mcol_character()[39m,
+  `�����ΰ�¾-�k/�k` = [31mcol_character()[39m,
+  `�M��-�~��` = [31mcol_character()[39m,
+  `�M��-�k/�k` = [31mcol_character()[39m,
+  `�j��-�~��` = [31mcol_character()[39m,
+  `�j��-�k/�k` = [31mcol_character()[39m,
+  `��s�ҤΥH�W-�~��` = [31mcol_character()[39m,
+  `��s�ҤΥH�W-�k/�k` = [31mcol_character()[39m
+)
+"
+"0","  X105eduatta_salary <- read_csv(""C:/Users/kazusa/Desktop/work/105eduatta_salary.csv"")"
+"2","Parsed with column specification:
+cols(
+  �~�� = [32mcol_double()[39m,
+  �j¾�~�O = [31mcol_character()[39m,
+  `�g�`���~��-�~��` = [32mcol_double()[39m,
+  `�g�`���~��-�k/�k` = [31mcol_character()[39m,
+  `�ꤤ�ΥH�U-�~��` = [31mcol_character()[39m,
+  `�ꤤ�ΥH�U-�k/�k` = [31mcol_character()[39m,
+  `�����ΰ�¾-�~��` = [31mcol_character()[39m,
+  `�����ΰ�¾-�k/�k` = [31mcol_character()[39m,
+  `�M��-�~��` = [31mcol_character()[39m,
+  `�M��-�k/�k` = [31mcol_character()[39m,
+  `�j��-�~��` = [31mcol_character()[39m,
+  `�j��-�k/�k` = [31mcol_character()[39m,
+  `��s�ҤΥH�W-�~��` = [31mcol_character()[39m,
+  `��s�ҤΥH�W-�k/�k` = [31mcol_character()[39m
+)
+"
+"0","  X106eduatta_salary <- read_csv(""C:/Users/kazusa/Desktop/work/106eduatta_salary.csv"")"
+"2","Parsed with column specification:
+cols(
+  �~�� = [32mcol_double()[39m,
+  �j¾�~�O = [31mcol_character()[39m,
+  `�g�`���~��-�~��` = [32mcol_double()[39m,
+  `�g�`���~��-�k/�k` = [31mcol_character()[39m,
+  `�ꤤ�ΥH�U-�~��` = [31mcol_character()[39m,
+  `�ꤤ�ΥH�U-�k/�k` = [31mcol_character()[39m,
+  `�����ΰ�¾-�~��` = [31mcol_character()[39m,
+  `�����ΰ�¾-�k/�k` = [31mcol_character()[39m,
+  `�M��-�~��` = [31mcol_character()[39m,
+  `�M��-�k/�k` = [31mcol_character()[39m,
+  `�j��-�~��` = [31mcol_character()[39m,
+  `�j��-�k/�k` = [31mcol_character()[39m,
+  `��s�ҤΥH�W-�~��` = [31mcol_character()[39m,
+  `��s�ҤΥH�W-�k/�k` = [31mcol_character()[39m
+)
+"
+"0","  X103eduatta_salary$大職業別<-gsub(""_"",""、"",X103eduatta_salary$大職業別)"
+"0","  X104eduatta_salary$大職業別<-gsub(""_"",""、"",X104eduatta_salary$大職業別)"
+"0","  X105eduatta_salary$大職業別<-gsub(""_"",""、"",X105eduatta_salary$大職業別)"
+"0","  X106eduatta_salary$大職業別<-gsub(""_"",""、"",X106eduatta_salary$大職業別)"
+"0","  "
+"0","  X106eduatta_salary$`經常性薪資-薪資`<-gsub(""—"",""0"",X106eduatta_salary$`經常性薪資-薪資`)"
+"0","  "
+"0","  X106eduatta_salary$`經常性薪資-女/男`<-gsub(""…"",""0"",X106eduatta_salary$`經常性薪資-女/男`)"
+"0","  "
+"0","  X106eduatta_salary$`國中及以下-薪資`<-gsub(""—"",""0"",X106eduatta_salary$`國中及以下-薪資`)"
+"0","  X106eduatta_salary$`國中及以下-薪資`<-gsub(""…"",""0"",X106eduatta_salary$`國中及以下-薪資`)"
+"0","  "
+"0","  X106eduatta_salary$`國中及以下-女/男`<-gsub(""—"",""0"",X106eduatta_salary$`國中及以下-女/男`)"
+"0","  X106eduatta_salary$`國中及以下-女/男`<-gsub(""…"",""0"",X106eduatta_salary$`國中及以下-女/男`)"
+"0","  "
+"0","  X106eduatta_salary$`高中或高職-薪資`<-gsub(""—"",""0"",X106eduatta_salary$`高中或高職-薪資`)"
+"0","  X106eduatta_salary$`高中或高職-薪資`<-gsub(""…"",""0"",X106eduatta_salary$`高中或高職-薪資`)"
+"0","  "
+"0","  X106eduatta_salary$`高中或高職-女/男`<-gsub(""—"",""0"",X106eduatta_salary$`高中或高職-女/男`)"
+"0","  X106eduatta_salary$`高中或高職-女/男`<-gsub(""…"",""0"",X106eduatta_salary$`高中或高職-女/男`)"
+"0","  "
+"0","  X106eduatta_salary$`專科-薪資`<-gsub(""—"",""0"",X106eduatta_salary$`專科-薪資`)"
+"0","  X106eduatta_salary$`專科-薪資`<-gsub(""…"",""0"",X106eduatta_salary$`專科-薪資`)"
+"0","  "
+"0","  X106eduatta_salary$`專科-女/男`<-gsub(""—"",""0"",X106eduatta_salary$`專科-女/男`)"
+"0","  X106eduatta_salary$`專科-女/男`<-gsub(""…"",""0"",X106eduatta_salary$`專科-女/男`)"
+"0","  "
+"0","  X106eduatta_salary$`大學-薪資`<-gsub(""—"",""0"",X106eduatta_salary$`大學-薪資`)"
+"0","  X106eduatta_salary$`大學-薪資`<-gsub(""…"",""0"",X106eduatta_salary$`大學-薪資`)"
+"0","  "
+"0","  X106eduatta_salary$`大學-女/男`<-gsub(""—"",""0"",X106eduatta_salary$`大學-女/男`)"
+"0","  X106eduatta_salary$`大學-女/男`<-gsub(""…"",""0"",X106eduatta_salary$`大學-女/男`)"
+"0","  "
+"0","  X106eduatta_salary$`研究所及以上-薪資`<-gsub(""—"",""0"",X106eduatta_salary$`研究所及以上-薪資`)"
+"0","  X106eduatta_salary$`研究所及以上-薪資`<-gsub(""…"",""0"",X106eduatta_salary$`研究所及以上-薪資`)"
+"0","  "
+"0","  X106eduatta_salary$`研究所及以上-女/男`<-gsub(""—"",""0"",X106eduatta_salary$`研究所及以上-女/男`)"
+"0","  X106eduatta_salary$`研究所及以上-女/男`<-gsub(""…"",""0"",X106eduatta_salary$`研究所及以上-女/男`)"
+"0","  "
+"0","  "
+"0","  X103eduatta_salary$`經常性薪資-薪資`<-gsub(""—"",""0"",X103eduatta_salary$`經常性薪資-薪資`)"
+"0","  "
+"0","  X103eduatta_salary$`經常性薪資-女/男`<-gsub(""…"",""0"",X103eduatta_salary$`經常性薪資-女/男`)"
+"0","  "
+"0","  X103eduatta_salary$`國中及以下-薪資`<-gsub(""—"",""0"",X103eduatta_salary$`國中及以下-薪資`)"
+"0","  X103eduatta_salary$`國中及以下-薪資`<-gsub(""…"",""0"",X103eduatta_salary$`國中及以下-薪資`)"
+"0","  "
+"0","  X103eduatta_salary$`國中及以下-女/男`<-gsub(""—"",""0"",X103eduatta_salary$`國中及以下-女/男`)"
+"0","  X103eduatta_salary$`國中及以下-女/男`<-gsub(""…"",""0"",X103eduatta_salary$`國中及以下-女/男`)"
+"0","  "
+"0","  X103eduatta_salary$`高中或高職-薪資`<-gsub(""—"",""0"",X103eduatta_salary$`高中或高職-薪資`)"
+"0","  X103eduatta_salary$`高中或高職-薪資`<-gsub(""…"",""0"",X103eduatta_salary$`高中或高職-薪資`)"
+"0","  "
+"0","  X103eduatta_salary$`高中或高職-女/男`<-gsub(""—"",""0"",X103eduatta_salary$`高中或高職-女/男`)"
+"0","  X103eduatta_salary$`高中或高職-女/男`<-gsub(""…"",""0"",X103eduatta_salary$`高中或高職-女/男`)"
+"0","  "
+"0","  X103eduatta_salary$`專科-薪資`<-gsub(""—"",""0"",X103eduatta_salary$`專科-薪資`)"
+"0","  X103eduatta_salary$`專科-薪資`<-gsub(""…"",""0"",X103eduatta_salary$`專科-薪資`)"
+"0","  "
+"0","  X103eduatta_salary$`專科-女/男`<-gsub(""—"",""0"",X103eduatta_salary$`專科-女/男`)"
+"0","  X103eduatta_salary$`專科-女/男`<-gsub(""…"",""0"",X103eduatta_salary$`專科-女/男`)"
+"0","  "
+"0","  X103eduatta_salary$`大學-薪資`<-gsub(""—"",""0"",X103eduatta_salary$`大學-薪資`)"
+"0","  X103eduatta_salary$`大學-薪資`<-gsub(""…"",""0"",X103eduatta_salary$`大學-薪資`)"
+"0","  "
+"0","  X103eduatta_salary$`大學-女/男`<-gsub(""—"",""0"",X103eduatta_salary$`大學-女/男`)"
+"0","  X103eduatta_salary$`大學-女/男`<-gsub(""…"",""0"",X103eduatta_salary$`大學-女/男`)"
+"0","  "
+"0","  X103eduatta_salary$`研究所及以上-薪資`<-gsub(""—"",""0"",X103eduatta_salary$`研究所及以上-薪資`)"
+"0","  X103eduatta_salary$`研究所及以上-薪資`<-gsub(""…"",""0"",X103eduatta_salary$`研究所及以上-薪資`)"
+"0","  "
+"0","  X103eduatta_salary$`研究所及以上-女/男`<-gsub(""—"",""0"",X103eduatta_salary$`研究所及以上-女/男`)"
+"0","  X103eduatta_salary$`研究所及以上-女/男`<-gsub(""…"",""0"",X103eduatta_salary$`研究所及以上-女/男`)"
+"0","  "
+"0","  X104eduatta_salary$`大學-女/男`<-gsub(""—"",""0"",X104eduatta_salary$`大學-女/男`)"
+"0","  X104eduatta_salary$`大學-女/男`<-gsub(""…"",""0"",X104eduatta_salary$`大學-女/男`)"
+"0","  "
+"0","  X105eduatta_salary$`大學-女/男`<-gsub(""—"",""0"",X105eduatta_salary$`大學-女/男`)"
+"0","  X105eduatta_salary$`大學-女/男`<-gsub(""…"",""0"",X105eduatta_salary$`大學-女/男`)"
+"0","  "
+"0","  X106eduatta_salary$`大學-薪資`<-as.numeric(X106eduatta_salary$`大學-薪資`)"
+"0","  X103eduatta_salary$`大學-薪資`<-as.numeric(X103eduatta_salary$`大學-薪資`)"
+"0","  X106eduatta_salary$`大學-女/男`<-as.numeric(X106eduatta_salary$`大學-女/男`)"
+"0","  X105eduatta_salary$`大學-女/男`<-as.numeric(X105eduatta_salary$`大學-女/男`)"
+"0","  X104eduatta_salary$`大學-女/男`<-as.numeric(X104eduatta_salary$`大學-女/男`)"
+"0","  X103eduatta_salary$`大學-女/男`<-as.numeric(X103eduatta_salary$`大學-女/男`)"
+"0","X106eduatta_salary$`大學-薪資`<-as.numeric(X106eduatta_salary$`大學-薪資`)"
+"0","X103eduatta_salary$`大學-薪資`<-as.numeric(X103eduatta_salary$`大學-薪資`)"
+"0","X106eduatta_salary$`經常性薪資-女/男`<-as.numeric(X106eduatta_salary$`經常性薪資-女/男`)"
+"0","a1<-X106eduatta_salary$`大學-薪資`"
+"0","b1<-X103eduatta_salary$`大學-薪資`"
